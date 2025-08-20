@@ -9,19 +9,35 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     ApiTest: typeof import('./src/components/ApiTest.vue')['default']
+    AppWriteIcon: typeof import('./src/components/icons/AppWriteIcon.vue')['default']
     Auth: typeof import('./src/components/Auth.vue')['default']
     Button: typeof import('primevue/button')['default']
     Card: typeof import('primevue/card')['default']
     Divider: typeof import('primevue/divider')['default']
+    ESLintIcon: typeof import('./src/components/icons/ESLintIcon.vue')['default']
     Form: typeof import('@primevue/forms/form')['default']
     FormField: typeof import('@primevue/forms/formfield')['default']
+    GitHubIcon: typeof import('./src/components/icons/GitHubIcon.vue')['default']
+    HeaderPanel: typeof import('./src/components/HeaderPanel.vue')['default']
+    IconField: typeof import('primevue/iconfield')['default']
+    InputIcon: typeof import('primevue/inputicon')['default']
     InputText: typeof import('primevue/inputtext')['default']
     KitchenSink: typeof import('./src/components/KitchenSink.vue')['default']
     Message: typeof import('primevue/message')['default']
     Password: typeof import('primevue/password')['default']
+    PrettierIcon: typeof import('./src/components/icons/PrettierIcon.vue')['default']
     ProgressSpinner: typeof import('primevue/progressspinner')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SplitButton: typeof import('primevue/splitbutton')['default']
+    TailwindIcon: typeof import('./src/components/icons/TailwindIcon.vue')['default']
     Toast: typeof import('primevue/toast')['default']
+    Toolbar: typeof import('primevue/toolbar')['default']
+    TypeScriptIcon: typeof import('./src/components/icons/TypeScriptIcon.vue')['default']
+    ViteIcon: typeof import('./src/components/icons/ViteIcon.vue')['default']
+    VueIcon: typeof import('./src/components/icons/VueIcon.vue')['default']
+  }
+  export interface GlobalDirectives {
+    Tooltip: typeof import('primevue/tooltip')['default']
   }
 }

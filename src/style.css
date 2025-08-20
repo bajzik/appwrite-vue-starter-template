@@ -30,10 +30,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   background: var(--color-gray-100);
 }
 
@@ -66,10 +62,27 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.app {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  max-width: 1280px;
+  min-height: 100vh;
+}
+
+.p-tooltip .p-tooltip-text {
+  font-size: 0.8rem;
+}
+
+.p-toolbar {
+  border-radius: 0 !important; /* Adjust to your desired border radius, e.g., 8px, 0.5rem, etc. */
 }
 
 @media (prefers-color-scheme: light) {
