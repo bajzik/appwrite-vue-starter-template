@@ -82,8 +82,9 @@ pnpm lint
 To run this project, you need to set up some environment variables. Create a `.env` file from `.env.example` in the root of your project and add the following variables:
 
 | ENV Variable                  | Description                                                                                    |
-| ----------------------------- | ---------------------------------------------------------------------------------------------- |
+| ----------------------------- |------------------------------------------------------------------------------------------------|
 | VITE_APPWRITE_PROJECT_ID      | Project ID set in your AppWrite console project settings                                       |
 | VITE_APPWRITE_PUBLIC_ENDPOINT | Hosted API endpoint (cloud or self-hosted), should have suffix for version (like /v1)          |
 | VITE_APPWRITE_DEV_KEY         | Generate Dev Key if you want to override rate limiters etc. It's used only on Development mode |
 | VITE_APPWRITE_DATABASE_ID     | Database ID that you want to connect                                                           |
+| VITE_APPWRITE_EXAMPLE_COLLECTION_ID     | Example collection to be fetched from AppWrite backend. Just for testing purposes              |

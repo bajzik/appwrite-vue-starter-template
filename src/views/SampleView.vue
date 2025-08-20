@@ -8,7 +8,6 @@
     <Button class="my-12" severity="danger" @click="onLogoutClick"
       >Logout</Button
     >
-    <Divider>Kitchen Sink</Divider>
     <KitchenSink class="mt-12" />
   </div>
 </template>

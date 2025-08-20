@@ -13,9 +13,11 @@ export const useAuthStore = defineStore("auth", () => {
     try {
       await account.value?.get();
       authenticated.value = true;
-    } catch (e) {
+    } catch (error) {
       if (showError) {
-        handleError(e);
+        if (error instanceof Error) {
+          handleError(error.message);
+        }
       }
       authenticated.value = false;
     }
@@ -26,7 +28,9 @@ export const useAuthStore = defineStore("auth", () => {
       await account.value?.deleteSession("current");
       authenticated.value = false;
     } catch (error) {
-      handleError(error);
+      if (error instanceof Error) {
+        handleError(error.message);
+      }
     }
   };
 

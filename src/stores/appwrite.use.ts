@@ -14,8 +14,8 @@ export const useAppWriteStore = defineStore("appWrite", () => {
     if (import.meta.env.DEV) {
       client.value.setDevKey(import.meta.env.VITE_APPWRITE_DEV_KEY);
     }
-    account.value = new Account(client);
-    database.value = new Databases(client);
+    account.value = new Account(client.value as Client);
+    database.value = new Databases(client.value as Client);
   };
 
   return { initAppwrite, account, database, client };

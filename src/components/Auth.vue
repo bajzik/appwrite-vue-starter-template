@@ -97,8 +97,10 @@ const onSubmit = async ({ valid }) => {
     await account.value?.get();
     authenticated.value = true;
     loading.value = false;
-  } catch (e) {
-    handleError(e);
+  } catch (error) {
+    if (error instanceof Error) {
+      handleError(error.message);
+    }
     authenticated.value = false;
   } finally {
     loading.value = false;
