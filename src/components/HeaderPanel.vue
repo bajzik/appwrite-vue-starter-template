@@ -6,6 +6,10 @@
     <template #center>
       <div class="flex gap-x-2 items-center">
         <div class="text-sm mr-5">Build with</div>
+        <div v-tooltip.bottom="'PNPM'">
+          <PNPMIcon class="fill-orange-400 w-5" />
+        </div>
+        <Divider layout="vertical" />
         <div v-tooltip.bottom="'Vue 3 + Composition API'">
           <VueIcon class="fill-emerald-500 w-5" />
         </div>
@@ -18,12 +22,22 @@
         <div v-tooltip.bottom="'TailWind CSS'">
           <TailwindIcon class="fill-cyan-500 w-5" />
         </div>
+        <div v-tooltip.bottom="'PrimeVUE'">
+          <PrimeVueIcon class="fill-emerald-500 w-5" />
+        </div>
         <Divider layout="vertical" />
         <div v-tooltip.bottom="'ESLint'">
           <ESLintIcon class="fill-indigo-700 w-5" />
         </div>
         <div v-tooltip.bottom="'Prettier'">
           <PrettierIcon class="fill-amber-400 w-5" />
+        </div>
+        <Divider layout="vertical" />
+        <div v-tooltip.bottom="'zod'">
+          <ZodIcon class="fill-blue-600 w-5" />
+        </div>
+        <div v-tooltip.bottom="'Pinia Store'">
+          <PiniaIcon class="fill-yellow-300 w-5" />
         </div>
         <Divider layout="vertical" />
         <div v-tooltip.bottom="'AppWrite'">
@@ -59,6 +73,10 @@ import ESLintIcon from "./icons/ESLintIcon.vue";
 import PrettierIcon from "./icons/PrettierIcon.vue";
 import TailwindIcon from "./icons/TailwindIcon.vue";
 import GitHubIcon from "./icons/GitHubIcon.vue";
+import PNPMIcon from "./icons/PNPMIcon.vue";
+import ZodIcon from "./icons/ZodIcon.vue";
+import PiniaIcon from "./icons/PiniaIcon.vue";
+import PrimeVueIcon from "./icons/PrimeVueIcon.vue";
 </script>
 
 <style scoped></style>

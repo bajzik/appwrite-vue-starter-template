@@ -25,7 +25,10 @@ declare module 'vue' {
     KitchenSink: typeof import('./src/components/KitchenSink.vue')['default']
     Message: typeof import('primevue/message')['default']
     Password: typeof import('primevue/password')['default']
+    PiniaIcon: typeof import('./src/components/icons/PiniaIcon.vue')['default']
+    PNPMIcon: typeof import('./src/components/icons/PNPMIcon.vue')['default']
     PrettierIcon: typeof import('./src/components/icons/PrettierIcon.vue')['default']
+    PrimeVueIcon: typeof import('./src/components/icons/PrimeVueIcon.vue')['default']
     ProgressSpinner: typeof import('primevue/progressspinner')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
@@ -36,6 +39,7 @@ declare module 'vue' {
     TypeScriptIcon: typeof import('./src/components/icons/TypeScriptIcon.vue')['default']
     ViteIcon: typeof import('./src/components/icons/ViteIcon.vue')['default']
     VueIcon: typeof import('./src/components/icons/VueIcon.vue')['default']
+    ZodIcon: typeof import('./src/components/icons/ZodIcon.vue')['default']
   }
   export interface GlobalDirectives {
     Tooltip: typeof import('primevue/tooltip')['default']

@@ -26,6 +26,8 @@ It is specifically designed to work with AppWrite Instance as no-code backend.
 - ⚙️ **Vue 3** + Composition API included
 - 🛠️ **Vite** for bundling
 - 🛟 **TypeScript** for type safety
+- 🍍 **Pinia** for state management
+- 💼 **zod** for data validation
 - 🪄 **AppWrite** as no-code backend
 - 🎨 **Tailwind CSS** for styling
 - 📦 **Prettier** for code formatting
