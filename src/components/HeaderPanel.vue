@@ -1,7 +1,7 @@
 <template>
   <Toolbar class="w-full">
     <template #start>
-      <div class="font-bold">Vue 3 + AppWriter Starter Template</div>
+      <div class="font-bold">Vue 3 + AppWrite Starter Template</div>
     </template>
     <template #center>
       <div class="flex gap-x-2 items-center">
