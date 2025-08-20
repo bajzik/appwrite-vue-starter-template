@@ -30,6 +30,7 @@ It is specifically designed to work with AppWrite Instance as no-code backend.
 - 🎨 **Tailwind CSS** for styling
 - 📦 **Prettier** for code formatting
 - ⚠️ **ESLint** for code linting
+- 🔦 **GitLeaks** for GIT repository leaking
 
 **As this is only started template, we're not currently handling responsivity.**
 
@@ -75,6 +76,11 @@ pnpm format
 ```bash
 # Linting
 pnpm lint
+```
+
+```bash
+# Check your GIT repo for credentials/secret leaks 
+pnpm check-leaks
 ```
 
 # Environment variables

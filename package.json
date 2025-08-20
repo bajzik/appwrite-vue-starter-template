@@ -10,13 +10,15 @@
     "vue-tsc": "vue-tsc",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.ts,.vue",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "check-leaks": "gitleaks git -v"
   },
   "dependencies": {
     "@primeuix/themes": "^1.2.3",
     "@primevue/forms": "^4.3.7",
     "@tailwindcss/vite": "^4.1.11",
     "appwrite": "^18.2.0",
+    "gitleaks": "^1.0.0",
     "pinia": "^3.0.3",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.7",
