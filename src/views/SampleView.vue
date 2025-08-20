@@ -5,14 +5,17 @@
       You managed to log in! Good. Now feel free and change your app whatever
       you want.
     </div>
-    <Button class="mt-12" severity="danger" @click="onLogoutClick"
+    <Button class="my-12" severity="danger" @click="onLogoutClick"
       >Logout</Button
     >
+    <Divider>Kitchen Sink</Divider>
+    <KitchenSink class="mt-12" />
   </div>
 </template>
 
 <script setup lang="ts">
 import { useAuthStore } from "../stores/auth.store.ts";
+import KitchenSink from "../components/KitchenSink.vue";
 
 const onLogoutClick = () => {
   const authStore = useAuthStore();
