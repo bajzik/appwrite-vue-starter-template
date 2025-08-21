@@ -1,9 +1,187 @@
 <template>
-  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <title>Prettier</title>
-    <path
-      d="M8.571 23.429A.571.571 0 0 1 8 24H2.286a.571.571 0 0 1 0-1.143H8c.316 0 .571.256.571.572zM8 20.57H6.857a.571.571 0 0 0 0 1.143H8a.571.571 0 0 0 0-1.143zm-5.714 1.143H4.57a.571.571 0 0 0 0-1.143H2.286a.571.571 0 0 0 0 1.143zM8 18.286H2.286a.571.571 0 0 0 0 1.143H8a.571.571 0 0 0 0-1.143zM16 16H5.714a.571.571 0 0 0 0 1.143H16A.571.571 0 0 0 16 16zM2.286 17.143h1.143a.571.571 0 0 0 0-1.143H2.286a.571.571 0 0 0 0 1.143zm17.143-3.429H16a.571.571 0 0 0 0 1.143h3.429a.571.571 0 0 0 0-1.143zM9.143 14.857h4.571a.571.571 0 0 0 0-1.143H9.143a.571.571 0 0 0 0 1.143zm-6.857 0h4.571a.571.571 0 0 0 0-1.143H2.286a.571.571 0 0 0 0 1.143zM20.57 11.43H11.43a.571.571 0 0 0 0 1.142h9.142a.571.571 0 0 0 0-1.142zM9.714 12a.571.571 0 0 0-.571-.571H5.714a.571.571 0 0 0 0 1.142h3.429A.571.571 0 0 0 9.714 12zm-7.428.571h1.143a.571.571 0 0 0 0-1.142H2.286a.571.571 0 0 0 0 1.142zm19.428-3.428H16a.571.571 0 0 0 0 1.143h5.714a.571.571 0 0 0 0-1.143zM2.286 10.286H8a.571.571 0 0 0 0-1.143H2.286a.571.571 0 0 0 0 1.143zm13.143-2.857c0 .315.255.571.571.571h5.714a.571.571 0 0 0 0-1.143H16a.571.571 0 0 0-.571.572zm-8.572-.572a.571.571 0 0 0 0 1.143H8a.571.571 0 0 0 0-1.143H6.857zM2.286 8H4.57a.571.571 0 0 0 0-1.143H2.286a.571.571 0 0 0 0 1.143zm16.571-2.857c0 .315.256.571.572.571h1.142a.571.571 0 0 0 0-1.143H19.43a.571.571 0 0 0-.572.572zm-1.143 0a.571.571 0 0 0-.571-.572H12.57a.571.571 0 0 0 0 1.143h4.572a.571.571 0 0 0 .571-.571zm-15.428.571h8a.571.571 0 0 0 0-1.143h-8a.571.571 0 0 0 0 1.143zm5.143-2.857c0 .316.255.572.571.572h11.429a.571.571 0 0 0 0-1.143H8a.571.571 0 0 0-.571.571zm-5.143.572h3.428a.571.571 0 0 0 0-1.143H2.286a.571.571 0 0 0 0 1.143zm0-2.286H16A.571.571 0 0 0 16 0H2.286a.571.571 0 0 0 0 1.143z"
-    />
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 210">
+    <g fill="none" fill-rule="evenodd">
+      <g transform="translate(0 200)">
+        <rect
+          width="60"
+          height="10"
+          x="150"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect
+          width="70"
+          height="10"
+          x="70"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="60" height="10" fill="#EA5E5E" rx="5" />
+      </g>
+      <g transform="translate(0 180)">
+        <rect
+          width="50"
+          height="10"
+          x="160"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect
+          width="20"
+          height="10"
+          x="130"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect
+          width="50"
+          height="10"
+          x="70"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="20" height="10" x="40" fill="#F7B93E" rx="5" />
+        <rect width="30" height="10" fill="#56B3B4" rx="5" />
+      </g>
+      <g transform="translate(0 160)">
+        <rect
+          width="100"
+          height="10"
+          x="110"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect
+          width="30"
+          height="10"
+          x="70"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="60" height="10" fill="#BF85BF" rx="5" />
+      </g>
+      <g transform="translate(0 140)">
+        <rect
+          width="30"
+          height="10"
+          x="180"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect
+          width="30"
+          height="10"
+          x="140"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="100" height="10" x="30" fill="#F7B93E" rx="5" />
+        <rect width="20" height="10" fill="#BF85BF" rx="5" />
+      </g>
+      <g transform="translate(0 120)">
+        <rect
+          width="40"
+          height="10"
+          x="170"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="40" height="10" x="120" fill="#BF85BF" rx="5" />
+        <rect width="50" height="10" x="60" fill="#EA5E5E" rx="5" />
+        <rect width="50" height="10" fill="#56B3B4" rx="5" />
+      </g>
+      <g transform="translate(0 100)">
+        <rect
+          width="30"
+          height="10"
+          x="180"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="90" height="10" x="80" fill="#56B3B4" rx="5" />
+        <rect width="40" height="10" x="30" fill="#F7B93E" rx="5" />
+        <rect width="20" height="10" fill="#EA5E5E" rx="5" />
+      </g>
+      <g transform="translate(0 80)">
+        <rect
+          width="20"
+          height="10"
+          x="190"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="60" height="10" x="120" fill="#F7B93E" rx="5" />
+        <rect
+          width="40"
+          height="10"
+          x="70"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="60" height="10" fill="#BF85BF" rx="5" />
+      </g>
+      <g transform="translate(0 60)">
+        <rect
+          width="20"
+          height="10"
+          x="190"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="60" height="10" x="120" fill="#EA5E5E" rx="5" />
+        <rect
+          width="40"
+          height="10"
+          x="70"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="20" height="10" x="40" fill="#56B3B4" rx="5" />
+        <rect width="30" height="10" fill="#F7B93E" rx="5" />
+      </g>
+      <g transform="translate(0 40)">
+        <rect
+          width="30"
+          height="10"
+          x="180"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="20" height="10" x="150" fill="#56B3B4" rx="5" />
+        <rect width="50" height="10" x="90" fill="#BF85BF" rx="5" />
+        <rect width="80" height="10" fill="#56B3B4" rx="5" />
+      </g>
+      <g transform="translate(0 20)">
+        <rect
+          width="40"
+          height="10"
+          x="170"
+          fill="#CFD4D7"
+          opacity=".5"
+          rx="5"
+        />
+        <rect width="110" height="10" x="50" fill="#F7B93E" rx="5" />
+        <rect width="40" height="10" fill="#EA5E5E" rx="5" />
+      </g>
+      <rect width="70" height="10" x="140" fill="#CFD4D7" opacity=".5" rx="5" />
+      <rect width="130" height="10" fill="#56B3B4" rx="5" />
+    </g>
   </svg>
 </template>
 
